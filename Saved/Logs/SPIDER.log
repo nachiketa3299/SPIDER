@@ -802,3 +802,276 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.05.16-01.45.49:798][329]LogSlate: Window 'Project Settings' being destroyed
 [2023.05.16-01.46.51:337][340]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2023.05.16-01.49.49:667][116]LogSlate: Took 0.179713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.05.16-02.08.30:532][761]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2023.05.16-02.08.30:541][761]LogContentBrowser: Creating deferred item: NewWorld
+[2023.05.16-02.08.35:023][223]LogContentBrowser: Attempting asset rename: NewWorld -> LV_Test
+[2023.05.16-02.08.35:045][223]LogContentBrowser: End creating deferred item NewWorld
+[2023.05.16-02.08.36:585][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.05.16-02.08.38:993][366]LogSlate: Window 'Save Content' being destroyed
+[2023.05.16-02.08.39:055][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Spider/LV_Test" FILE="../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/Spider/LV_Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.16-02.08.39:073][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.05.16-02.08.39:111][366]LogSavePackage: Moving '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Saved/LV_Test1AFA8E6B41D7931B8A24A0ABA2D3DADA.tmp' to '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/Spider/LV_Test.umap'
+[2023.05.16-02.08.39:130][366]LogFileHelpers: Saving map 'LV_Test' took 0.076
+[2023.05.16-02.08.39:161][366]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Spider/LV_Test.LV_Test
+[2023.05.16-02.08.39:161][366]Cmd: MAP LOAD FILE="../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/Spider/LV_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.05.16-02.08.39:161][366]LightingResults: New page: Lighting Build
+[2023.05.16-02.08.39:162][366]LoadErrors: New page: Loading map: LV_Test.umap
+[2023.05.16-02.08.39:162][366]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-02.08.39:162][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-02.08.39:162][366]MapCheck: New page: Map Check
+[2023.05.16-02.08.39:162][366]LightingResults: New page: Lighting Build
+[2023.05.16-02.08.39:167][366]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.16-02.08.39:170][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.05.16-02.08.39:172][366]LogAudio: Display: Audio Device (ID: 1) registered with world 'LV_Test'.
+[2023.05.16-02.08.39:212][366]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.16-02.08.39:212][366]LogAIModule: Creating AISystem for world LV_Test
+[2023.05.16-02.08.39:218][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.05.16-02.08.39:505][366]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.16-02.08.39:507][366]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.823ms to complete.
+[2023.05.16-02.08.39:507][366]LogFileHelpers: Loading map 'LV_Test' took 0.345
+[2023.05.16-02.08.39:757][366]AssetCheck: New page: Asset Save: LV_Test
+[2023.05.16-02.08.39:757][366]LogContentValidation: Display: Validating World /Game/Spider/LV_Test.LV_Test
+[2023.05.16-02.08.46:966][128]LogActorFactory: Actor Factory created Cube
+[2023.05.16-02.08.47:870][190]LogActorFactory: Actor Factory created Cube
+[2023.05.16-02.08.50:451][436]LogEditorViewport: Clicking Background
+[2023.05.16-02.08.56:949][169]LogEditorViewport: Clicking Background
+[2023.05.16-02.09.07:092][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2023.05.16-02.09.08:175][304]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2023.05.16-02.09.08:992][398]Cmd: DELETE
+[2023.05.16-02.09.08:992][398]Cmd: ACTOR DELETE
+[2023.05.16-02.09.09:033][398]LogEditorActor: Deleted Actor: DirectionalLight
+[2023.05.16-02.09.09:039][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.05.16-02.09.09:040][398]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2023.05.16-02.09.11:247][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2023.05.16-02.09.13:127][834]LogSlate: Took 0.025889 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.05.16-02.09.22:962][837]LogRenderer: Reallocating scene render targets to support 1208x476 Format 10 NumSamples 1 (Frame:4409).
+[2023.05.16-02.09.22:997][838]LogRenderer: Reallocating scene render targets to support 1208x488 Format 10 NumSamples 1 (Frame:4411).
+[2023.05.16-02.09.23:036][839]LogRenderer: Reallocating scene render targets to support 1208x516 Format 10 NumSamples 1 (Frame:4413).
+[2023.05.16-02.09.23:069][840]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:4415).
+[2023.05.16-02.09.23:103][841]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:4417).
+[2023.05.16-02.09.23:136][842]LogRenderer: Reallocating scene render targets to support 1208x632 Format 10 NumSamples 1 (Frame:4419).
+[2023.05.16-02.09.23:177][843]LogRenderer: Reallocating scene render targets to support 1208x656 Format 10 NumSamples 1 (Frame:4421).
+[2023.05.16-02.09.23:208][844]LogRenderer: Reallocating scene render targets to support 1208x676 Format 10 NumSamples 1 (Frame:4423).
+[2023.05.16-02.09.23:246][845]LogRenderer: Reallocating scene render targets to support 1208x696 Format 10 NumSamples 1 (Frame:4425).
+[2023.05.16-02.09.23:279][846]LogRenderer: Reallocating scene render targets to support 1208x700 Format 10 NumSamples 1 (Frame:4427).
+[2023.05.16-02.09.26:117][168]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2023.05.16-02.09.28:040][385]LogEditorViewport: Clicking Background
+[2023.05.16-02.09.30:589][676]LogEditorViewport: Clicking Background
+[2023.05.16-02.09.31:572][793]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2023.05.16-02.09.39:263][682]LogEditorViewport: Clicking Background
+[2023.05.16-02.09.39:736][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2023.05.16-02.09.54:488][969]LogEditorViewport: Clicking Background
+[2023.05.16-02.10.04:257][137]LogEditorViewport: Clicking Background
+[2023.05.16-02.10.23:105][949]LogEditorViewport: Clicking Background
+[2023.05.16-02.10.36:426][325]LogEditorViewport: Clicking on Actor (LMB): SkyAtmosphere (SkyAtmosphere)
+[2023.05.16-02.10.53:467][866]LogEditorViewport: Clicking Background
+[2023.05.16-02.10.54:841][977]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2023.05.16-02.11.01:776][632]LogEditorViewport: Clicking Background
+[2023.05.16-02.11.13:040][932]LogEditorViewport: Clicking Background
+[2023.05.16-02.11.14:491][102]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.16-02.11.14:540][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.16-02.11.14:549][102]PIE: New page: PIE session: LV_Test (2023. 5. 16. 오후 8:11:14)
+[2023.05.16-02.11.14:556][102]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.05.16-02.11.14:570][102]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.05.16-02.11.14:570][102]LogPlayLevel: Creating play world package: /Game/Spider/UEDPIE_0_LV_Test
+[2023.05.16-02.11.14:570][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001375s)
+[2023.05.16-02.11.14:571][102]LogAIModule: Creating AISystem for world LV_Test
+[2023.05.16-02.11.14:572][102]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2023.05.16-02.11.14:572][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spider/LV_Test.LV_Test to /Game/Spider/UEDPIE_0_LV_Test.LV_Test (0.002758s)
+[2023.05.16-02.11.14:578][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.05.16-02.11.14:618][102]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.05.16-02.11.14:618][102]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.16-02.11.14:618][102]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.16-02.11.14:618][102]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.16-02.11.14:618][102]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.16-02.11.14:618][102]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.16-02.11.14:618][102]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.16-02.11.14:618][102]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.16-02.11.14:618][102]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.16-02.11.14:619][102]LogAudio: Display: Using built-in audio occlusion.
+[2023.05.16-02.11.14:619][102]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.16-02.11.14:622][102]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.16-02.11.14:622][102]LogAudioMixer: Display: 1: FrontRight
+[2023.05.16-02.11.14:671][102]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2023.05.16-02.11.14:671][102]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.16-02.11.14:671][102]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.16-02.11.14:671][102]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.16-02.11.14:672][102]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.16-02.11.14:672][102]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.16-02.11.14:672][102]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.05.16-02.11.14:701][102]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.16-02.11.14:701][102]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.16-02.11.14:701][102]LogInit: FAudioDevice initialized.
+[2023.05.16-02.11.14:701][102]LogAudio: Display: Audio Device (ID: 2) registered with world 'LV_Test'.
+[2023.05.16-02.11.14:733][102]LogLoad: Game class is 'GameModeBase'
+[2023.05.16-02.11.14:769][102]LogWorld: Bringing World /Game/Spider/UEDPIE_0_LV_Test.LV_Test up for play (max tick rate 0) at 2023.05.16-11.11.14
+[2023.05.16-02.11.14:769][102]LogWorld: Bringing up level for play took: 0.000948
+[2023.05.16-02.11.14:769][102]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2023.05.16-02.11.14:995][102]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2023.05.16-02.11.15:024][102]PIE: Server logged in
+[2023.05.16-02.11.15:048][102]PIE: Play in editor total start time 0.537 seconds.
+[2023.05.16-02.11.17:291][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-02.11.17:291][334]LogWorld: BeginTearingDown for /Game/Spider/UEDPIE_0_LV_Test
+[2023.05.16-02.11.17:313][334]LogWorld: UWorld::CleanupWorld for LV_Test, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-02.11.17:313][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-02.11.17:322][334]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.16-02.11.17:324][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-02.11.17:333][334]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.16-02.11.17:333][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.16-02.11.17:335][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.16-02.11.17:374][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-02.11.17:377][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.05.16-02.11.17:396][335]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.05.16-02.11.18:348][445]Cmd: SELECT NONE
+[2023.05.16-02.11.26:624][405]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.05.16-02.11.29:504][744]LogEditorViewport: Clicking Background
+[2023.05.16-02.11.30:091][812]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.16-02.11.30:096][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.16-02.11.30:097][812]PIE: New page: PIE session: LV_Test (2023. 5. 16. 오후 8:11:30)
+[2023.05.16-02.11.30:130][812]LogPlayLevel: Creating play world package: /Game/Spider/UEDPIE_0_LV_Test
+[2023.05.16-02.11.30:131][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001100s)
+[2023.05.16-02.11.30:132][812]LogAIModule: Creating AISystem for world LV_Test
+[2023.05.16-02.11.30:133][812]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2023.05.16-02.11.30:133][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spider/LV_Test.LV_Test to /Game/Spider/UEDPIE_0_LV_Test.LV_Test (0.002390s)
+[2023.05.16-02.11.30:138][812]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.05.16-02.11.30:139][812]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.05.16-02.11.30:139][812]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.16-02.11.30:139][812]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.16-02.11.30:139][812]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.16-02.11.30:139][812]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.16-02.11.30:139][812]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.16-02.11.30:139][812]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.16-02.11.30:139][812]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.16-02.11.30:139][812]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.16-02.11.30:140][812]LogAudio: Display: Using built-in audio occlusion.
+[2023.05.16-02.11.30:140][812]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.16-02.11.30:143][812]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.16-02.11.30:143][812]LogAudioMixer: Display: 1: FrontRight
+[2023.05.16-02.11.30:171][812]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2023.05.16-02.11.30:171][812]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.16-02.11.30:171][812]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.16-02.11.30:171][812]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.16-02.11.30:172][812]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.16-02.11.30:172][812]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.16-02.11.30:172][812]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.05.16-02.11.30:190][812]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.16-02.11.30:190][812]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.16-02.11.30:190][812]LogInit: FAudioDevice initialized.
+[2023.05.16-02.11.30:190][812]LogAudio: Display: Audio Device (ID: 3) registered with world 'LV_Test'.
+[2023.05.16-02.11.30:200][812]LogLoad: Game class is 'GameModeBase'
+[2023.05.16-02.11.30:202][812]LogWorld: Bringing World /Game/Spider/UEDPIE_0_LV_Test.LV_Test up for play (max tick rate 0) at 2023.05.16-11.11.30
+[2023.05.16-02.11.30:202][812]LogWorld: Bringing up level for play took: 0.000389
+[2023.05.16-02.11.30:202][812]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2023.05.16-02.11.30:205][812]PIE: Server logged in
+[2023.05.16-02.11.30:205][812]PIE: Play in editor total start time 0.109 seconds.
+[2023.05.16-02.11.39:202][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-02.11.39:202][570]LogWorld: BeginTearingDown for /Game/Spider/UEDPIE_0_LV_Test
+[2023.05.16-02.11.39:202][570]LogWorld: UWorld::CleanupWorld for LV_Test, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-02.11.39:202][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-02.11.39:210][570]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.16-02.11.39:212][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-02.11.39:218][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-02.11.39:218][570]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.16-02.11.39:219][570]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.16-02.11.39:242][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.05.16-02.11.39:260][571]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.05.16-02.11.42:736][890]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2023.05.16-02.11.55:620][171]Cmd: DELETE
+[2023.05.16-02.11.55:620][171]Cmd: ACTOR DELETE
+[2023.05.16-02.11.55:621][171]LogEditorActor: Deleted Actor: PlayerStart
+[2023.05.16-02.11.55:628][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.05.16-02.11.55:629][171]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.05.16-02.11.59:620][502]LogSlate: Window 'New Level' being destroyed
+[2023.05.16-02.12.01:118][502]LogSlate: Window 'Save Content' being destroyed
+[2023.05.16-02.12.05:713][646]LogSlate: Window 'New Level' being destroyed
+[2023.05.16-02.12.07:777][646]LogSlate: Window 'Save Content' being destroyed
+[2023.05.16-02.12.07:820][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Spider/LV_Test" FILE="../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/Spider/LV_Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.16-02.12.07:826][646]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.05.16-02.12.07:830][646]LogSavePackage: Moving '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Saved/LV_Test263A52E14B08CC5C731C74849706C285.tmp' to '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/Spider/LV_Test.umap'
+[2023.05.16-02.12.07:846][646]LogFileHelpers: Saving map 'LV_Test' took 0.027
+[2023.05.16-02.12.07:855][646]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/TimeOfDay_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.05.16-02.12.07:883][646]LightingResults: New page: Lighting Build
+[2023.05.16-02.12.07:883][646]LoadErrors: New page: Loading map: TimeOfDay_Default.umap
+[2023.05.16-02.12.07:884][646]LogWorld: UWorld::CleanupWorld for LV_Test, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-02.12.07:884][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-02.12.07:884][646]MapCheck: New page: Map Check
+[2023.05.16-02.12.07:884][646]LightingResults: New page: Lighting Build
+[2023.05.16-02.12.07:889][646]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.16-02.12.07:890][646]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.05.16-02.12.08:903][646]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_2'.
+[2023.05.16-02.12.08:905][646]LogAIModule: Creating AISystem for world Untitled_2
+[2023.05.16-02.12.08:909][646]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.16-02.12.08:921][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.05.16-02.12.08:937][646]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.16-02.12.08:937][646]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.236ms to complete.
+[2023.05.16-02.12.08:937][646]LogFileHelpers: Loading map 'TimeOfDay_Default' took 1.082
+[2023.05.16-02.12.08:942][646]AssetCheck: New page: Asset Save: LV_Test
+[2023.05.16-02.12.08:942][646]LogContentValidation: Display: Validating World /Game/Spider/LV_Test.LV_Test
+[2023.05.16-02.12.23:946][995]LogSlate: Window 'New Level' being destroyed
+[2023.05.16-02.12.23:952][995]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.05.16-02.12.23:977][995]LightingResults: New page: Lighting Build
+[2023.05.16-02.12.23:977][995]LoadErrors: New page: Loading map: Template_Default.umap
+[2023.05.16-02.12.23:977][995]LogWorld: UWorld::CleanupWorld for Untitled_2, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-02.12.23:977][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-02.12.23:978][995]MapCheck: New page: Map Check
+[2023.05.16-02.12.23:978][995]LightingResults: New page: Lighting Build
+[2023.05.16-02.12.23:982][995]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.16-02.12.23:984][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.05.16-02.12.23:991][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.05.16-02.12.23:995][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.05.16-02.12.24:009][995]LogTexture: Display: Building textures: DeprecatedTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2023.05.16-02.12.24:012][995]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_3'.
+[2023.05.16-02.12.24:013][995]LogAIModule: Creating AISystem for world Untitled_3
+[2023.05.16-02.12.24:018][995]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.16-02.12.24:023][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.05.16-02.12.24:037][995]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.16-02.12.24:038][995]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.255ms to complete.
+[2023.05.16-02.12.24:038][995]LogFileHelpers: Loading map 'Template_Default' took 0.086
+[2023.05.16-02.12.35:742][456]LogSlate: Window 'Save Level As' being destroyed
+[2023.05.16-02.12.35:822][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV_TestSpace" FILE="../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/LV_TestSpace.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.16-02.12.35:828][456]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.05.16-02.12.35:837][456]LogSavePackage: Moving '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Saved/LV_TestSpaceDF8AE0534E6A8006B192399D29CC885A.tmp' to '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/LV_TestSpace.umap'
+[2023.05.16-02.12.35:870][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV_TestSpace_BuiltData" FILE="../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/LV_TestSpace_BuiltData.uasset" SILENT=true
+[2023.05.16-02.12.35:888][456]LogSavePackage: Moving '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Saved/LV_TestSpace_BuiltData8580119C4D8C79909C8D529DA0FF6752.tmp' to '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/LV_TestSpace_BuiltData.uasset'
+[2023.05.16-02.12.35:906][456]LogFileHelpers: Saving map 'LV_TestSpace' took 0.151
+[2023.05.16-02.12.35:911][456]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.16-02.12.35:911][456]LogContentValidation: Display: Validating World /Game/LV_TestSpace.LV_TestSpace
+[2023.05.16-02.12.35:911][456]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/LV_TestSpace_BuiltData.LV_TestSpace_BuiltData
+[2023.05.16-02.12.39:729][750]LogObjectTools: Deleting 1 worlds: /Game/Spider/LV_Test.LV_Test
+[2023.05.16-02.12.39:729][750]LogObjectTools: Currently 5 active worlds: /Game/LV_TestSpace.LV_TestSpace, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3
+[2023.05.16-02.12.39:734][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.05.16-02.12.41:122][750]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.16-02.12.41:150][750]LogWorld: UWorld::CleanupWorld for LV_Test, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-02.12.41:150][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-02.12.41:222][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.05.16-02.12.41:235][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.05.16-02.12.41:240][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.05.16-02.12.48:149][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Spider/LV_TestSpace_BuiltData" FILE="../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/Spider/LV_TestSpace_BuiltData.uasset" SILENT=true
+[2023.05.16-02.12.48:164][410]LogSavePackage: Moving '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Saved/LV_TestSpace_BuiltDataDA683E7240A5FBA161800FB7E3EFD453.tmp' to '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/Spider/LV_TestSpace_BuiltData.uasset'
+[2023.05.16-02.12.48:172][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.05.16-02.12.48:180][410]LogSavePackage: Moving '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Saved/LV_TestSpace48BA1081476EA4D34273A68883C92263.tmp' to '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/Spider/LV_TestSpace.umap'
+[2023.05.16-02.12.48:194][410]LogFileHelpers: Saving map 'LV_TestSpace' took 0.028
+[2023.05.16-02.12.48:316][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.05.16-02.12.48:321][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.05.16-02.12.48:332][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.05.16-02.12.48:337][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.05.16-02.12.48:388][410]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.16-02.12.48:388][410]LogContentValidation: Display: Validating World /Game/Spider/LV_TestSpace.LV_TestSpace
+[2023.05.16-02.12.48:388][410]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Spider/LV_TestSpace_BuiltData.LV_TestSpace_BuiltData
+[2023.05.16-02.12.53:031][898]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.16-02.12.53:039][898]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.16-02.12.55:789][228]LogContentBrowser: Attempting asset rename: NewFolder -> Level
+[2023.05.16-02.12.55:789][228]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.16-02.12.58:188][514]LogContentBrowser: Attempting asset rename: Level -> Maps
+[2023.05.16-02.13.00:997][847]LogContentBrowser: Attempting asset rename: Maps -> Map
+[2023.05.16-02.13.04:440][169]LogSavePackage: Moving '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Saved/LV_TestSpace_BuiltDataC3655A99401A151B8703A2BB46811F66.tmp' to '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/Spider/Map/LV_TestSpace_BuiltData.uasset'
+[2023.05.16-02.13.04:448][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.05.16-02.13.04:457][169]LogSavePackage: Moving '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Saved/LV_TestSpace22DC5B444286CEAD159767BCF718DB77.tmp' to '../../../../../../Users/user/Documents/RZN/Projects/UE4 Projects/SPIDER/Content/Spider/Map/LV_TestSpace.umap'
+[2023.05.16-02.13.04:470][169]LogFileHelpers: Saving map 'LV_TestSpace' took 0.029
+[2023.05.16-02.13.04:592][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.05.16-02.13.04:596][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.05.16-02.13.04:607][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.05.16-02.13.04:612][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.05.16-02.13.04:642][169]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.16-02.13.04:642][169]LogContentValidation: Display: Validating World /Game/Spider/Map/LV_TestSpace.LV_TestSpace
+[2023.05.16-02.13.04:642][169]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Spider/Map/LV_TestSpace_BuiltData.LV_TestSpace_BuiltData
